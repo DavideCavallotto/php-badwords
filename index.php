@@ -18,7 +18,7 @@ $text = 'Il sole sorge all\'orizzonte, il suo bagliore dorato si diffonde, abbra
         <h1>Inserisci la parola da censurare</h1>
         <form action="text.php" method='POST'>            
             <input type="text" name="user_text" placeholder="Scrivi la parola"placeholder="Scrivi la parola">
-            <input type="submit" value="Invia">
+            <input type="submit" value="Censura">
         </form>
 
     </div>    

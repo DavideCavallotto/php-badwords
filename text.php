@@ -7,9 +7,7 @@ $new_text = str_replace($user_text, $word_censured, $text);
 
 ?>
 
-<h1>
-  Testo non censurato
-</h1>
+<h1>Testo non censurato</h1>
 <p><?php echo $text; ?></p>
 <p>Il testo è lungo: <?php echo strlen($text); ?> caratteri</p>
 <h1>Parola da censurare</h1>
